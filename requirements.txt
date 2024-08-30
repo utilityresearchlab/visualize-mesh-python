@@ -1,0 +1,4 @@
+libigl==2.5.1
+numpy==2.1.0
+polyscope==2.3.0
+scipy==1.14.1
