@@ -8,6 +8,11 @@ Sample using Polyscope and libigl to Visualize Meshs
 3. Install the required packages using: `pip install -r requirements.txt`
 4. When adding new packages, be sure to update the requirements.txt using: `pip freeze > requirements.txt`
 
-# Running the script 
+## Running the script 
 1. Activate the virtual environment:  `source env/bin/activate`
 2. Run the script `python visualizemesh.py`
+
+
+
+## Acknowledgements
+- Stanford Bunny Mesh is from https://commons.wikimedia.org/wiki/File:Stanford_Bunny.stl

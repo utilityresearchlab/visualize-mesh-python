@@ -19,7 +19,7 @@ mesh_v, mesh_f = igl.read_triangle_mesh(INPUT_MESH)
 ### Register a mesh
 # `verts` is a Nx3 numpy array of vertex positions
 # `faces` is a Fx3 array of indices, or a nested list
-ps.register_surface_mesh("my mesh", mesh_v, mesh_f, smooth_shade=True)
+ps.register_surface_mesh("Stanford Bunny", mesh_v, mesh_f, smooth_shade=True)
 
 # View the point cloud and mesh we just registered in the 3D UI
 ps.show()
